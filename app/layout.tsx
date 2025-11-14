@@ -1,12 +1,12 @@
 import './globals.css';
 import type { Metadata, Viewport } from 'next';
-import { Manrope } from 'next/font/google';
+import { Manrope, Urbanist } from 'next/font/google';
 import { getUser, getTeamForUser } from '@/lib/db/queries';
 import { SWRConfig } from 'swr';
 
 export const metadata: Metadata = {
-  title: 'Next.js SaaS Starter',
-  description: 'Get started quickly with Next.js, Postgres, and Stripe.'
+  title: 'Aspire Academics - VCE & High School Tutoring in Truganina',
+  description: 'Professional in-person tutoring for VCE and high school students in Truganina. Expert tutors in English, Maths, Science, and more. Book your free trial today.'
 };
 
 export const viewport: Viewport = {
@@ -14,6 +14,11 @@ export const viewport: Viewport = {
 };
 
 const manrope = Manrope({ subsets: ['latin'] });
+const urbanist = Urbanist({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700', '800', '900'],
+  variable: '--font-urbanist'
+});
 
 export default function RootLayout({
   children
@@ -23,9 +28,9 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`bg-white dark:bg-gray-950 text-black dark:text-white ${manrope.className}`}
+      className={`bg-white dark:bg-gray-950 text-black dark:text-white ${urbanist.className}`}
     >
-      <body className="min-h-[100dvh] bg-gray-50">
+      <body className="min-h-[100dvh] bg-white">
         <SWRConfig
           value={{
             fallback: {
