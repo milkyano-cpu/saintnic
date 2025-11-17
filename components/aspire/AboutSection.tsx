@@ -30,7 +30,7 @@ export function AboutSection() {
               {/* Placeholder for image */}
               <div className="absolute inset-0 bg-gray-600">
                 <Image
-                  src={"/marketing/about/bg-photo-2.webp"}
+                  src={"/marketing/about/bg-photo-2.png"}
                   alt="About Aspire"
                   fill
                 />
@@ -38,7 +38,7 @@ export function AboutSection() {
               {/* Gradient overlay */}
               <div className="h-[100px] z-30 absolute inset-x-0 bg-gradient-to-t from-white via-white/60 to-transparent bottom-0" />
               <Image
-                src={"/marketing/about/photo-2.webp"}
+                src={"/marketing/about/photo-2.png"}
                 alt="About Aspire"
                 width={368}
                 height={100}
