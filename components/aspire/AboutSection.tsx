@@ -37,13 +37,17 @@ export function AboutSection() {
               </div>
               {/* Gradient overlay */}
               <div className="h-[100px] z-30 absolute inset-x-0 bg-gradient-to-t from-white via-white/60 to-transparent bottom-0" />
-              <Image
-                src={"/marketing/about/photo-2.png"}
-                alt="About Aspire"
-                width={368}
-                height={100}
-                className="absolute bottom-[-20px] lg:bottom-[-15px] w-full"
-              />
+              <div className="flex justify-center">
+                <div className="max-w-[430px] absolute bottom-[-20px] lg:bottom-[-15px] mb-auto">
+                  <Image
+                    src="/marketing/about/photo-2.png"
+                    alt="About Aspire"
+                    width={1372}
+                    height={1480}
+                    className="w-full"
+                  />
+                </div>
+              </div>
             </div>
 
             {/* Content */}
