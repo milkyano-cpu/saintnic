@@ -83,18 +83,18 @@ function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
-    <header className="border-b border-gray-700 bg-aspire-dark-blue h-[80px] w-full">
+    <header className="border-b border-gray-700 bg-saintnic-dark-blue h-[80px] w-full">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center h-full">
         <Link href="/" className="flex items-center">
           <Image
             src="/logo.svg"
-            alt="Aspire Logo"
+            alt="Saintnic Logo"
             width={40}
             height={40}
             className="rounded-full"
           />
           <span className="hidden md:inline ml-2 text-xl font-black tracking-wide text-white">
-            ASPIRE
+            SAINTNIC
           </span>
         </Link>
         <div className="flex items-center space-x-4">
@@ -129,7 +129,7 @@ function Header() {
           />
 
           {/* Sidebar sliding from right */}
-          <div className="fixed top-0 right-0 h-screen w-64 bg-aspire-dark-blue shadow-lg z-50 md:hidden transform transition-transform duration-300 ease-in-out">
+          <div className="fixed top-0 right-0 h-screen w-64 bg-saintnic-dark-blue shadow-lg z-50 md:hidden transform transition-transform duration-300 ease-in-out">
             {/* Close button */}
             <div className="flex justify-between items-center p-5 border-b border-gray-700 h-[80px]">
               <span className="text-white font-bold text-lg">Menu</span>
@@ -168,7 +168,7 @@ function Header() {
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <section className="flex flex-col min-h-screen overflow-x-hidden">
-      <Header />
+      {/* <Header /> */}
       {children}
     </section>
   );

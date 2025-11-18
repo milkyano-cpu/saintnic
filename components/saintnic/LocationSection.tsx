@@ -25,7 +25,7 @@ const Popup = dynamic(() => import("react-leaflet").then((mod) => mod.Popup), {
 });
 
 export function LocationSection() {
-  // Aspire Academics location coordinates
+  // Saintnic Academics location coordinates
   const position: [number, number] = [-37.84129696747103, 144.74723069503193];
 
   // Custom marker icon
@@ -36,7 +36,7 @@ export function LocationSection() {
       className: styles.customMarker,
       html: `
         <div class="${styles.markerCard}">
-          <div class="${styles.markerTitle}">ASPIRE</div>
+          <div class="${styles.markerTitle}">SAINTNIC</div>
           <div class="${styles.markerSubtitle}">ACADEMICS</div>
         </div>
         <div class="${styles.markerArrow}"></div>
@@ -95,8 +95,8 @@ export function LocationSection() {
                   <Marker position={position} icon={customIcon}>
                     <Popup>
                       <div className="text-center">
-                        <p className="font-bold text-aspire-blue">
-                          Aspire Academics
+                        <p className="font-bold text-saintnic-blue">
+                          Saintnic Academics
                         </p>
                         <p className="text-xs">Unit 15, 150 Palmers Rd</p>
                         <p className="text-xs">Truganina VIC 3029</p>

@@ -15,8 +15,8 @@ export function GradientOverlay({
     'bottom-to-top':
       'bg-gradient-to-t from-white via-white/60 to-transparent',
     'top-to-bottom':
-      'bg-gradient-to-b from-aspire-medium-blue/80 via-aspire-medium-blue/40 to-transparent',
-    center: 'bg-gradient-to-b from-aspire-medium-blue to-aspire-dark-blue',
+      'bg-gradient-to-b from-saintnic-medium-blue/80 via-saintnic-medium-blue/40 to-transparent',
+    center: 'bg-gradient-to-b from-saintnic-medium-blue to-saintnic-dark-blue',
   };
 
   return (

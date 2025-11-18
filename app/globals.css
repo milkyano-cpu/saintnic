@@ -79,23 +79,23 @@
   /* Font is now loaded via next/font/google in layout.tsx */
 }
 
-/* Aspire LMS Color Variables */
+/* Saintnic LMS Color Variables */
 :root {
-  --aspire-dark-blue: 204 79% 18%;
-  --aspire-medium-blue: 203 80% 39%;
-  --aspire-orange: 23 97% 49%;
-  --aspire-blue: 199 100% 56%;
-  --aspire-light-blue: 199 88% 94%;
-  --aspire-text-dark: 229 44% 12%;
+  --saintnic-dark-blue: 204 79% 18%;
+  --saintnic-medium-blue: 203 80% 39%;
+  --saintnic-orange: 23 97% 49%;
+  --saintnic-blue: 199 100% 56%;
+  --saintnic-light-blue: 199 88% 94%;
+  --saintnic-text-dark: 229 44% 12%;
 }
 
 @theme {
-  --color-aspire-dark-blue: hsl(var(--aspire-dark-blue));
-  --color-aspire-medium-blue: hsl(var(--aspire-medium-blue));
-  --color-aspire-orange: hsl(var(--aspire-orange));
-  --color-aspire-blue: hsl(var(--aspire-blue));
-  --color-aspire-light-blue: hsl(var(--aspire-light-blue));
-  --color-aspire-text-dark: hsl(var(--aspire-text-dark));
+  --color-saintnic-dark-blue: hsl(var(--saintnic-dark-blue));
+  --color-saintnic-medium-blue: hsl(var(--saintnic-medium-blue));
+  --color-saintnic-orange: hsl(var(--saintnic-orange));
+  --color-saintnic-blue: hsl(var(--saintnic-blue));
+  --color-saintnic-light-blue: hsl(var(--saintnic-light-blue));
+  --color-saintnic-text-dark: hsl(var(--saintnic-text-dark));
 }
 
 @layer base {
@@ -291,7 +291,7 @@
   }
 }
 
-/* Aspire Custom Animations */
+/* Saintnic Custom Animations */
 @keyframes fade-in {
   from {
     opacity: 0;

@@ -5,7 +5,7 @@ import { getUser, getTeamForUser } from "@/lib/db/queries";
 import { SWRConfig } from "swr";
 
 export const metadata: Metadata = {
-  title: "Aspire Academics - VCE & High School Tutoring in Truganina",
+  title: "Saintnic Academics - VCE & High School Tutoring in Truganina",
   description:
     "Professional in-person tutoring for VCE and high school students in Truganina. Expert tutors in English, Maths, Science, and more. Book your free trial today.",
 };

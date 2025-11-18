@@ -9,7 +9,7 @@ export function NumberedBadge({ number, className }: NumberedBadgeProps) {
   return (
     <div
       className={cn(
-        'flex h-[26px] w-[26px] items-center justify-center rounded-full bg-aspire-orange text-white',
+        'flex h-[26px] w-[26px] items-center justify-center rounded-full bg-saintnic-orange text-white',
         className
       )}
     >

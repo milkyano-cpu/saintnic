@@ -4,16 +4,16 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-**Aspire** - A Learning Management System (LMS) landing page built for a client.
+**Saintnic** - A Learning Management System (LMS) landing page built for a client.
 
-This project is based on a Next.js 15 SaaS starter template and is currently being developed as a landing page for Aspire LMS. The underlying infrastructure includes:
+This project is based on a Next.js 15 SaaS starter template and is currently being developed as a landing page for Saintnic LMS. The underlying infrastructure includes:
 - **Next.js 15** with App Router, React Server Components, and Partial Prerendering (PPR)
 - **Postgres** database with **Drizzle ORM**
 - **Stripe** for subscription management (may be used for course/subscription payments)
 - **JWT-based authentication** stored in cookies
 - **shadcn/ui** components built on Radix UI
 
-**Current Focus:** Building out the marketing landing page to showcase Aspire's learning management platform.
+**Current Focus:** Building out the marketing landing page to showcase Saintnic's learning management platform.
 
 ## Development Commands
 

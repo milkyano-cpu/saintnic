@@ -20,14 +20,14 @@ export function Section({
   containerClassName,
 }: SectionProps) {
   const variantClasses = {
-    "dark-blue": "bg-aspire-dark-blue text-white",
-    "medium-blue": "bg-aspire-medium-blue text-white",
-    "light-blue": "bg-aspire-light-blue text-aspire-text-dark",
-    white: "bg-white text-aspire-text-dark",
+    "dark-blue": "bg-saintnic-dark-blue text-white",
+    "medium-blue": "bg-saintnic-medium-blue text-white",
+    "light-blue": "bg-saintnic-light-blue text-saintnic-text-dark",
+    white: "bg-white text-saintnic-text-dark",
     "gradient-blue":
-      "bg-gradient-to-b from-aspire-medium-blue to-aspire-dark-blue text-white",
+      "bg-gradient-to-b from-saintnic-medium-blue to-saintnic-dark-blue text-white",
     "gradient-blue-top":
-      "bg-gradient-to-t from-aspire-medium-blue to-aspire-dark-blue text-white",
+      "bg-gradient-to-t from-saintnic-medium-blue to-saintnic-dark-blue text-white",
   };
 
   return (

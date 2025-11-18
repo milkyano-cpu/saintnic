@@ -24,7 +24,7 @@ export function StarRating({
             size={size}
             className={cn(
               isFilled
-                ? 'fill-aspire-orange stroke-aspire-orange'
+                ? 'fill-saintnic-orange stroke-saintnic-orange'
                 : 'fill-gray-300 stroke-gray-300'
             )}
           />
