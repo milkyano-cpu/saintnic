@@ -5,9 +5,9 @@ import { getUser, getTeamForUser } from "@/lib/db/queries";
 import { SWRConfig } from "swr";
 
 export const metadata: Metadata = {
-  title: "Saintnic Academics - VCE & High School Tutoring in Truganina",
+  title: "Saint Nic | Specialty Coffee & Brunch in Oakleigh",
   description:
-    "Professional in-person tutoring for VCE and high school students in Truganina. Expert tutors in English, Maths, Science, and more. Book your free trial today.",
+    "Saint Nic serves specialty coffee and modern brunch in the heart of Oakleigh. Open 365 days. Visit us at 38 Portman St.",
 };
 
 export const viewport: Viewport = {
