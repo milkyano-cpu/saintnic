@@ -24,7 +24,10 @@
       "Bash(pnpm add:*)",
       "Bash(taskkill:*)",
       "mcp__TalkToFigma__get_nodes_info",
-      "mcp__TalkToFigma__export_node_as_image"
+      "mcp__TalkToFigma__export_node_as_image",
+      "Bash(del \"C:\\Users\\Rani\\milkyano\\saintnic\\app\\favicon.ico\")",
+      "Bash(cp:*)",
+      "Bash(rm:*)"
     ],
     "deny": [],
     "ask": []
